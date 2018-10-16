@@ -12,7 +12,7 @@ This is default config file (/etc/nginx/sites-avaiable/default)
 
 Additionaly, we need to create user/pass file: username is meomeo and password is meoconxinhxinh
 ```shell
-echo -e "\nmeomeo:`openssl passwd -apr1 meoconxinhxan`" >> /etc/nginx/.htpasswd
+echo -e "meomeo:`openssl passwd -apr1 meoconxinhxan`" >> /etc/nginx/.htpasswd
 ```
 Password was saved in hash digest
 
